@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jmeter</title>
+    <h1>Jaymit Desai</h1>
+    <h2>1001447748</h2>
+</head>
+
+<body>
+    <form name="selectform" action="/upload" method="POST" enctype="multipart/form-data">
+        <table>
+            <!--<tr><td>Image id: </td><td><input type="number" name="id"></td></tr>-->
+            <tr>
+                <td>Image Description: </td>
+                <td><input type="text" name="desc"></td>
+            </tr>
+            <tr>
+                <td>Image File: </td>
+                <td><input type="file" name="file" accept="uploaded_files/*" multiple></td>
+            </tr>
+            <tr>
+                <td>Image Notes: </td>
+                <td><input type="text" name="notes"></td>
+            </tr>
+            <tr>
+                <td>Image Priority: </td>
+                <td><input type="text" name="priority"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Upload"></td>
+            </tr>
+        </table>
+
+    </form>
+    <form name="down" action="/download" method="POST" enctype="multipart/form-data">
+        <table>
+            <!--<tr><td>Parameter: </td><td><input type="text" name="param"></td></tr>-->
+            <tr>
+                <td>Image Description: </td>
+                <td><input type="text" name="p_value"></td>
+            </tr>
+            <!--<tr><td>Image Name: </td><td><input type="text" name="name"></td></tr>-->
+            <!--<tr`><td>Image Description: </td><td><input type="text" name="desc"></td></tr>-->
+            <!--<tr><td>Image File: </td><td><input type="file" name="file" accept="uploaded_files/*" multiple></td></tr>-->
+            <!--<tr><td>Image Notes: </td><td><input type="text" name="notes"></td></tr>-->
+            <!--<tr><td>Image Priority: </td><td><input type="text" name="priority"></td></tr>-->
+            <tr>
+                <td><input type="submit" value="Download"></td>
+            </tr>
+        </table>
+
+    </form>
+
+    </form>
+</body>
+
+</html>

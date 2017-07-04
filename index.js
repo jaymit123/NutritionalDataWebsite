@@ -1,13 +1,4 @@
-var http = require('http');
-
-var server = http.createServer(function(request, response) {
-
-    response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Hello World!");
-
-});
-
-var port = process.env.PORT || 1337;
-server.listen(port);
-
-console.log("Server running at http://localhost:%d", port);
+var server = require("./lib/server");
+var route = require('./lib/router');
+var requestHandler = require('./lib/requestHandler');
+server.start(route.route, requestHandler.handler);
