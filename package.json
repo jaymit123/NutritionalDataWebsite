@@ -10,5 +10,10 @@
     },
     "scripts": {
         "start": "node index.js"
+    },
+    "dependencies": {
+        "multer": "latest",
+        "documentdb": "^1.6.0",
+        "hogan": "latest"
     }
 }
