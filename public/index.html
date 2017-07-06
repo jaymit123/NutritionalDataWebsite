@@ -8,6 +8,39 @@
 </head>
 
 <body>
+
+
+    <form name="selectform" action="/deleteWF" method="POST" enctype="multipart/form-data">
+        <table>
+            <h1>Delete Recipes</h1>
+            <!--<tr><td>Image id: </td><td><input type="number" name="id"></td></tr>-->
+            <tr>
+                <td>Fat Range greater then: </td>
+                <td><input type="number" name="fat"></td>
+            </tr>
+
+            <tr>
+                <td>Weight Range less then: </td>
+                <td><input type="number" name="weight"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="delete"></td>
+            </tr>
+        </table>
+
+    </form>
+
+
+    <form name="selectform" action="/maxfat" method="POST" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td><input type="submit" value="show 3 max"></td>
+            </tr>
+        </table>
+
+    </form>
+
+
     <form name="selectform" action="/recipeRange" method="POST" enctype="multipart/form-data">
         <table>
             <h1>Recipe only Range</h1>
