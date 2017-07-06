@@ -9,37 +9,34 @@
 </head>
 
 <body>
-    <form name="selectform" action="/registerPhoto" method="POST" enctype="multipart/form-data">
+    <form name="selectform" action="/recipeRange" method="POST" enctype="multipart/form-data">
         <table>
             <!--<tr><td>Image id: </td><td><input type="number" name="id"></td></tr>-->
             <tr>
-                <td>Image Description: </td>
-                <td><input type="text" name="desc"></td>
+                <td>Calorie Range 1: </td>
+                <td><input type="number" name="cr1"></td>
+            </tr>
+
+            <tr>
+                <td>Calorie Range 2: </td>
+                <td><input type="number" name="cr2"></td>
             </tr>
             <tr>
-                <td>Image File: </td>
-                <td><input type="file" name="file" accept="uploaded_files/*" multiple></td>
+                <td>Recipe </td>
+                <td><input type="text" name="Recipe"></td>
             </tr>
             <tr>
-                <td>Image Notes: </td>
-                <td><input type="text" name="notes"></td>
-            </tr>
-            <tr>
-                <td>Image Priority: </td>
-                <td><input type="text" name="priority"></td>
-            </tr>
-            <tr>
-                <td><input type="submit" value="Upload"></td>
+                <td><input type="submit" value="findRecipe"></td>
             </tr>
         </table>
 
     </form>
-    <form name="down" action="/downloadPhoto" method="POST" enctype="multipart/form-data">
+    <form name="down" action="/findIngredient" method="POST" enctype="multipart/form-data">
         <table>
             <!--<tr><td>Parameter: </td><td><input type="text" name="param"></td></tr>-->
             <tr>
-                <td>Image Description: </td>
-                <td><input type="text" name="imgname"></td>
+                <td>findIngredient : </td>
+                <td><input type="text" name="ingredient"></td>
             </tr>
 
             <tr>

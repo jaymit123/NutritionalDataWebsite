@@ -6,9 +6,12 @@
 </head>
 
 <body>
-    <img src="data:image/jpeg;base64,{{imagedata}}">
+
+    {% for imagedata in list %}
+    <h5>{{imagedata['id']}}</h5>
+    <img src="data:image/jpeg;base64,{{imagedata['image']}}"> {% endfor %}
 </body>
 <h4>
-    Time taken {{time}}</h4>
+    Time taken {{time[0]}} secs {{time[1]/1000000}} ms </h4>
 
 </html>
