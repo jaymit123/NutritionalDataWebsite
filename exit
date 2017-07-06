@@ -1,0 +1,124 @@
+[33mcommit bc34a1a11870aa1810b6b8a94f10281eab06146b[m
+Author: Jaymit Desai <jaymit_123@hotmail.com>
+Date:   Thu Jul 6 11:23:29 2017 -0500
+
+    Added Calories with Range
+
+[33mcommit 78fbfd82b5ecd94e23d23d17308c3cb7c03b93b3[m
+Author: Jaymit Desai <jaymit_123@hotmail.com>
+Date:   Wed Jul 5 00:12:15 2017 -0500
+
+    Fixed Time
+
+[33mcommit f42cf7c2debe4cb9ae3c4c7b1962263fcb68956e[m
+Author: Jaymit Desai <jaymit_123@hotmail.com>
+Date:   Wed Jul 5 00:07:29 2017 -0500
+
+    Added Time
+
+[33mcommit a66e503fd036e01d8dcca0f8f2a726fa39877fbe[m
+Author: Jaymit Desai <jaymit_123@hotmail.com>
+Date:   Tue Jul 4 22:55:55 2017 -0500
+
+    Added Time Check
+
+[33mcommit 00a6efa9648ec696ce738c0fc9ab25d9b4da288e[m
+Author: Jaymit Desai <jaymit_123@hotmail.com>
+Date:   Tue Jul 4 22:16:02 2017 -0500
+
+    Added Upload & Download Feature
+
+[33mcommit a6a14f1b8b24175cf59df7f7c2cde0eddebaab6e[m
+Author: Jaymit Desai <jaymit_123@hotmail.com>
+Date:   Tue Jul 4 01:24:51 2017 -0500
+
+    Added New Files
+
+[33mcommit 78275008d826fd11dc433ddbe4377098e8245d83[m
+Merge: bb129c2 b11d5a1
+Author: Cephas Lin <cephalin@users.noreply.github.com>
+Date:   Thu Jun 1 18:33:42 2017 +0200
+
+    Merge pull request #2 from tdykstra/patch-1
+    
+    restore Hello World
+
+[33mcommit b11d5a1161ce003ba1a3005bce3a498ea1b7c44c[m
+Author: Tom Dykstra <tdykstra@microsoft.com>
+Date:   Thu Jun 1 09:27:51 2017 -0700
+
+    restore Hello World
+
+[33mcommit bb129c23e0bf0a15b7a0fc2736311215aa6129c2[m
+Author: Cory Fowler <cfowler@microsoft.com>
+Date:   Fri Mar 24 15:48:43 2017 -0700
+
+    updated to watch true from array to see if things are detected
+
+[33mcommit c3810563167ac5aa198546e9eafdad1daa37538b[m
+Author: Cory Fowler <cfowler@microsoft.com>
+Date:   Fri Mar 24 15:29:39 2017 -0700
+
+    added process.json file to bootstrap continuous deployment
+
+[33mcommit 51bbc9bb3d89b07ea694f466112a6fddcae56e00[m
+Author: Cory Fowler <cfowler@microsoft.com>
+Date:   Thu Mar 23 10:33:50 2017 -0700
+
+    added logging
+
+[33mcommit bf114df591309104fbe58b446b896ca01d4ee00c[m
+Merge: 8eb63bd da9842e
+Author: Cory Fowler <cfowler@microsoft.com>
+Date:   Wed Mar 15 18:13:17 2017 -0700
+
+    Merge branch 'master' of github.com:Azure-Samples/nodejs-docs-hello-world
+
+[33mcommit da9842e4a5e9992ee2f3b1bfedab07d0234e6195[m
+Author: Cory Fowler <cory@syntaxc4.net>
+Date:   Wed Mar 15 18:13:08 2017 -0700
+
+    Update package.json
+
+[33mcommit 8eb63bd5551b8ea55e4380f3805e0986e05dd277[m
+Merge: f18e496 885a0b3
+Author: Cory Fowler <cfowler@microsoft.com>
+Date:   Wed Mar 15 18:11:20 2017 -0700
+
+    Merge branch 'master' of github.com:Azure-Samples/nodejs-docs-hello-world
+
+[33mcommit f18e4968c92016d3662dad02ce65f2955249a4f6[m
+Author: Cory Fowler <cfowler@microsoft.com>
+Date:   Wed Mar 15 18:10:50 2017 -0700
+
+    empty commit to trick deploy
+
+[33mcommit 885a0b3ad16fa7305165e5b179cde0ea729ca4fd[m
+Author: Cory Fowler <cory@syntaxc4.net>
+Date:   Wed Mar 15 18:10:00 2017 -0700
+
+    Update package.json
+
+[33mcommit 2bfc7e6497fa92680f7ae18e7abc524c8efcff7e[m
+Author: Cory Fowler <cfowler@microsoft.com>
+Date:   Wed Mar 15 17:31:21 2017 -0700
+
+    initial code check-in
+
+[33mcommit 8926c9a83f0d0c68ca885e06a3f61bd7e15ceb0f[m
+Author: Microsoft Open Source <microsoftopensource@users.noreply.github.com>
+Date:   Wed Mar 15 17:04:32 2017 -0700
+
+    Initial commit
+
+[33mcommit 403d597dc88e0ffc11ac1aeb9bf5d80fe26a971a[m
+Author: Microsoft Open Source <microsoftopensource@users.noreply.github.com>
+Date:   Wed Mar 15 17:04:30 2017 -0700
+
+    Initial commit
+
+[33mcommit 691792449a0159f15576f7c215a71b15cacd1986[m
+Author: Microsoft GitHub User <msftgits@microsoft.com>
+Date:   Wed Mar 15 17:04:28 2017 -0700
+
+    Initial commit
