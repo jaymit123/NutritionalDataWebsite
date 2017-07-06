@@ -37,16 +37,37 @@
                 <td><input type="number" name="cr1"></td>
             </tr>
 
-            <tr>
+            <!--            <tr>
                 <td>Calorie Range 2: </td>
                 <td><input type="number" name="cr2"></td>
-            </tr>
+            </tr>-->
             <tr>
                 <td>Recipe </td>
                 <td><input type="text" name="Recipe"></td>
             </tr>
             <tr>
                 <td><input type="submit" value="findRecipe"></td>
+            </tr>
+        </table>
+
+    </form>
+
+
+
+    <form name="des" action="/replaceIng" method="POST" enctype="multipart/form-data">
+        <table>
+            REPLACE INGREDIENTS
+            <tr>
+                <td>Ing Name</td>
+                <td><input type="text" name="Recipe"></td>
+            </tr>
+
+            <tr>
+                <td>Ing New Name</td>
+                <td><input type="text" name="RecipeReplace"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="replace ingredient"></td>
             </tr>
         </table>
 
