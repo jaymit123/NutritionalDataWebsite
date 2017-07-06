@@ -4,11 +4,12 @@
 <head>
     <title>Display Image</title>
 </head>
+COunt of Images = {{count}}
 
 <body>
 
     {% for imagedata in list %}
-    <h5>{{imagedata['id']}}</h5>
+    <h5>Name : {{imagedata['id']}} Number of Calories : {{imagedata['calories']}} Genre Type {{imagedata['type']}}</h5>
     <img src="data:image/jpeg;base64,{{imagedata['image']}}"> {% endfor %}
 </body>
 <h4>
