@@ -12,12 +12,12 @@
         "start": "node index.js"
     },
     "dependencies": {
-        "multer": "latest",
+        "atpl": "latest",
+        "csv-parse": "^2.0.0",
         "documentdb": "^1.6.0",
-        "hogan": "latest",
-        "filehound": "latest",
         "fast-csv": "latest",
-        "atpl": "latest"
-
+        "filehound": "latest",
+        "hogan": "latest",
+        "multer": "latest"
     }
 }

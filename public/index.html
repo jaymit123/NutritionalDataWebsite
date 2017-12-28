@@ -9,53 +9,56 @@
 
 <body>
 
-
     <form name="selectform" action="/deleteWF" method="POST" enctype="multipart/form-data">
         <table>
             <h1>Delete Recipes</h1>
             <!--<tr><td>Image id: </td><td><input type="number" name="id"></td></tr>-->
             <tr>
                 <td>Fat Range greater then: </td>
-                <td><input type="number" name="fat"></td>
+                <td>
+                    <input type="number" name="fat">
+                </td>
             </tr>
 
             <tr>
                 <td>Weight Range less then: </td>
-                <td><input type="number" name="weight"></td>
+                <td>
+                    <input type="number" name="weight">
+                </td>
             </tr>
             <tr>
-                <td><input type="submit" value="delete"></td>
+                <td>
+                    <input type="submit" value="delete">
+                </td>
             </tr>
         </table>
 
     </form>
 
 
-    <form name="selectform" action="/maxfat" method="POST" enctype="multipart/form-data">
-        <table>
-            <tr>
-                <td><input type="submit" value="show 3 max"></td>
-            </tr>
-        </table>
-
-    </form>
 
 
     <form name="selectform" action="/recipeRange" method="POST" enctype="multipart/form-data">
         <table>
-            <h1>Recipe only Range</h1>
+            <h1>Find Recipes within a given calorie range</h1>
             <!--<tr><td>Image id: </td><td><input type="number" name="id"></td></tr>-->
             <tr>
-                <td>Calorie Range 1: </td>
-                <td><input type="number" name="cr1"></td>
+                <td>From Calorie : </td>
+                <td>
+                    <input type="number" name="cr1">
+                </td>
             </tr>
 
             <tr>
-                <td>Calorie Range 2: </td>
-                <td><input type="number" name="cr2"></td>
+                <td>To Calorie </td>
+                <td>
+                    <input type="number" name="cr2">
+                </td>
             </tr>
             <tr>
-                <td><input type="submit" value="findRecipe"></td>
+                <td>
+                    <input type="submit" value="findRecipe">
+                </td>
             </tr>
         </table>
 
@@ -67,7 +70,9 @@
             <!--<tr><td>Image id: </td><td><input type="number" name="id"></td></tr>-->
             <tr>
                 <td>Calorie Range 1: </td>
-                <td><input type="number" name="cr1"></td>
+                <td>
+                    <input type="number" name="cr1">
+                </td>
             </tr>
 
             <!--            <tr>
@@ -76,10 +81,14 @@
             </tr>-->
             <tr>
                 <td>Recipe </td>
-                <td><input type="text" name="Recipe"></td>
+                <td>
+                    <input type="text" name="Recipe">
+                </td>
             </tr>
             <tr>
-                <td><input type="submit" value="findRecipe"></td>
+                <td>
+                    <input type="submit" value="findRecipe">
+                </td>
             </tr>
         </table>
 
@@ -92,15 +101,21 @@
             REPLACE INGREDIENTS
             <tr>
                 <td>Ing Name</td>
-                <td><input type="text" name="Recipe"></td>
+                <td>
+                    <input type="text" name="Recipe">
+                </td>
             </tr>
 
             <tr>
                 <td>Ing New Name</td>
-                <td><input type="text" name="RecipeReplace"></td>
+                <td>
+                    <input type="text" name="RecipeReplace">
+                </td>
             </tr>
             <tr>
-                <td><input type="submit" value="replace ingredient"></td>
+                <td>
+                    <input type="submit" value="replace ingredient">
+                </td>
             </tr>
         </table>
 
@@ -116,11 +131,15 @@
             <!--<tr><td>Parameter: </td><td><input type="text" name="param"></td></tr>-->
             <tr>
                 <td>findIngredient : </td>
-                <td><input type="text" name="ingredient"></td>
+                <td>
+                    <input type="text" name="ingredient">
+                </td>
             </tr>
 
             <tr>
-                <td><input type="submit" value="Download"></td>
+                <td>
+                    <input type="submit" value="Download">
+                </td>
             </tr>
         </table>
 

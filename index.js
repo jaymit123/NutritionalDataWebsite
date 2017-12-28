@@ -1,4 +1,6 @@
-var server = require("./lib/server");
-var route = require('./lib/router');
-var requestHandler = require('./lib/requestHandler');
-server.start(route.route, requestHandler.handler);
+const server = require('./lib/Server');
+const route = require('./lib/Router');
+const requestHandler = require('./lib/RequestHandler');
+
+const serverInstance = new server(route, requestHandler);
+serverInstance.startServer();
