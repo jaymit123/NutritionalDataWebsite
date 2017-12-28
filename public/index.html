@@ -11,7 +11,7 @@
 
     <form name="selectform" action="/deleteWF" method="POST" enctype="multipart/form-data">
         <table>
-            <h1>Delete Recipes</h1>
+            <h1>Delete Recipes with given Fat and Weight Range</h1>
             <!--<tr><td>Image id: </td><td><input type="number" name="id"></td></tr>-->
             <tr>
                 <td>Fat Range greater then: </td>
@@ -66,7 +66,7 @@
 
     <form name="des" action="/recipeRngWithIng" method="POST" enctype="multipart/form-data">
         <table>
-            <h1>Recipe only Range with Ingredients</h1>
+            <h1>Recipe having calories greater then specified range and with  given Ingredient</h1>
             <!--<tr><td>Image id: </td><td><input type="number" name="id"></td></tr>-->
             <tr>
                 <td>Calorie Range 1: </td>
@@ -74,15 +74,10 @@
                     <input type="number" name="cr1">
                 </td>
             </tr>
-
-            <!--            <tr>
-                <td>Calorie Range 2: </td>
-                <td><input type="number" name="cr2"></td>
-            </tr>-->
             <tr>
-                <td>Recipe </td>
+                <td>Ingredient </td>
                 <td>
-                    <input type="text" name="Recipe">
+                    <input type="text" name="ingredient">
                 </td>
             </tr>
             <tr>
@@ -98,11 +93,11 @@
 
     <form name="des" action="/replaceIng" method="POST" enctype="multipart/form-data">
         <table>
-            REPLACE INGREDIENTS
+            <h1>Replace recipe's having specified ingredient with new ingredient.</h1>
             <tr>
                 <td>Ing Name</td>
                 <td>
-                    <input type="text" name="Recipe">
+                    <input type="text" name="ingredient">
                 </td>
             </tr>
 
@@ -130,7 +125,9 @@
         <table>
             <!--<tr><td>Parameter: </td><td><input type="text" name="param"></td></tr>-->
             <tr>
-                <td>findIngredient : </td>
+                <td>
+                    <h1>Find Recipes having specific ingredient.</h1>
+                </td>
                 <td>
                     <input type="text" name="ingredient">
                 </td>

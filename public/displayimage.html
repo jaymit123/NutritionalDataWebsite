@@ -4,15 +4,15 @@
 <head>
     <title>Display Image</title>
 </head>
-COunt of Images = {{count}}
+Count of Matching Images = {{count}}
 
 <body>
-
+<h1>Displaying list of all matching recipes</h1>
     {% for imagedata in list %}
     <h5>Name : {{imagedata['id']}} Number of Calories : {{imagedata['calories']}} Genre Type {{imagedata['type']}}</h5>
     <img src="data:image/jpeg;base64,{{imagedata['image']}}"> {% endfor %}
 </body>
 <h4>
-    Time taken {{time[0]}} secs {{time[1]/1000000}} ms </h4>
+    Time taken {{time[0]}} secs {{time[1]/1000000}} ms to run the query</h4>
 
 </html>
